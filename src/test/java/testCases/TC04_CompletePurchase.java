@@ -77,7 +77,7 @@ public class TC04_CompletePurchase extends BaseClass {
 
             logger.debug("Logging in during checkout");
             LoginPage login = new LoginPage(getDriver());
-            login.setEmail("juliennemckee7@gmail.com");   // recommended from config
+            login.setEmail("test@email.com");   // recommended from config
             login.setPwd("apple1");
             login.clickLogin();
 
