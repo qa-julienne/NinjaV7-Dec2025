@@ -45,7 +45,7 @@ public class TC06_AddAffiliate extends BaseClass {
             LoginPage lp = new LoginPage(getDriver());
 
             logger.debug("Entering login credentials");
-            lp.setEmail("juliennemckee7@gmail.com");
+            lp.setEmail("test@email.com");
             lp.setPwd("apple1");
             lp.clickLogin();
 
